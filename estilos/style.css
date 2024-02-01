@@ -1,0 +1,69 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body  {
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+}
+
+body {
+    background-image: url('../imagens/Fundo-em-paisagem.jpeg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+main {
+    height: 100vh;
+    position: relative;
+}
+
+section#tela {
+    background-image: url('../imagens/tela.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 900px;
+    height: 600px;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+iframe#iframe {
+    position: relative;
+    width: 900px;
+    height: 600px;
+}
+
+div.primeiro {
+    position: absolute;
+    right: 80%;
+    top: 0%;
+}
+
+div.segundo {
+    position: absolute;
+    left: 80%;
+    top: 0%;
+}
+
+div.primeiro img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 5px;
+    border: 3px solid black;
+}
+
+div.segundo img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 5px;
+    border: 3px solid black;
+}

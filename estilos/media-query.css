@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+@media screen and (min-width: 600px) and (max-width: 768px) {
+    section#tela {
+        width: 500px;
+        height:460px;
+        top: 50%;
+        left: 56%;
+    }
+    
+    iframe#iframe {
+        width: 500px;
+        height: 460px;
+    }
+    
+    div.primeiro {
+        left: 0px;
+    }
+
+    div.segundo {
+        left: 0px;
+        top: 240px;
+    }
+    
+    div.primeiro img {
+        width: 63px;
+        height: 63px;
+    }
+
+    div.segundo img {
+        width: 63px;
+        height: 63px;
+        display: inline-block;
+    }
+
+    img {
+        width: 350px;
+        height: 400px;
+    }
+}
