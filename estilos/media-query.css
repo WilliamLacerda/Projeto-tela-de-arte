@@ -5,17 +5,17 @@
     padding: 0px;
 }
 
-@media screen and (min-width: 600px) and (max-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 992px) {
     section#tela {
-        width: 500px;
-        height:460px;
+        max-width: 700px;
+        max-height:550px;
         top: 50%;
-        left: 56%;
+        left: 50%;
     }
     
     iframe#iframe {
-        width: 500px;
-        height: 460px;
+        width: 650px;
+        height: 550px;
     }
     
     div.primeiro {
@@ -23,23 +23,113 @@
     }
 
     div.segundo {
-        left: 0px;
-        top: 240px;
+        right: 0px;
+        top: 0px
     }
     
     div.primeiro img {
-        width: 63px;
-        height: 63px;
+        width: 100px;
+        height: 100px;
+
     }
 
     div.segundo img {
-        width: 63px;
-        height: 63px;
-        display: inline-block;
+        width: 100px;
+        height: 100px;
     }
+}
 
-    img {
-        width: 350px;
-        height: 400px;
+@media screen and (min-width:992px) and (max-width:1200px) {
+    
+    section#tela {
+        width: 1150px;
+        height: 770px;
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    iframe#iframe {
+        position: relative;
+        width: 1150px;
+        height: 770px;
+    }
+    
+    div.primeiro {
+        position: absolute;
+        right: 86%;
+        top: 0%;
+    }
+    
+    div.segundo {
+        position: absolute;
+        left: 86%;
+        top: 0%;
+    }
+    
+    div.primeiro img {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        margin: 5px;
+        border: 3px solid black;
+    }
+    
+    div.segundo img {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        margin: 5px;
+        border: 3px solid black;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    
+    section#tela {
+        background-image: url('../imagens/tela.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 1150px;
+        height: 770px;
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    iframe#iframe {
+        position: relative;
+        width: 1150px;
+        height: 770px;
+    }
+    
+    div.primeiro {
+        position: absolute;
+        right: 86%;
+        top: 0%;
+    }
+    
+    div.segundo {
+        position: absolute;
+        left: 86%;
+        top: 0%;
+    }
+    
+    div.primeiro img {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        margin: 5px;
+        border: 3px solid black;
+    }
+    
+    div.segundo img {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        margin: 5px;
+        border: 3px solid black;
     }
 }
